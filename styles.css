@@ -1,0 +1,17 @@
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f0f0f0;
+}
+
+.cat {
+    width: 100px;
+    height: 100px;
+    background-image: url('cat.png'); /* Make sure the image is named cat.png */
+    background-size: cover;
+    position: absolute;
+    transition: top 0.2s ease, left 0.2s ease;
+}
