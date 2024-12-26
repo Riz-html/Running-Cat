@@ -1,0 +1,50 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: transparent;
+    z-index: 1;
+    position: relative;
+}
+
+nav {
+    display: flex;
+    gap: 20px; /* Space between links */
+}
+
+nav a {
+    text-decoration: none;
+    color: black; /* Simple black text */
+    font-size: 16px;
+    font-weight: normal;
+    background: none;
+    padding: 0; /* Remove padding for simplicity */
+}
+
+nav a:hover {
+    text-decoration: underline; /* Add underline on hover */
+}
+
+.logo {
+    font-family: 'Georgia', serif;
+    font-size: 24px;
+    font-weight: bold;
+    color: black;
+}
+
+.sign-up {
+    background-color: black;
+    color: white;
+    padding: 8px 15px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.sign-up:hover {
+    background-color: white;
+    color: black;
+    border: 1px solid black; /* Add border on hover for consistency */
+}
